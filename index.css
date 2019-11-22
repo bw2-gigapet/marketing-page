@@ -9,6 +9,8 @@ body {
   
 }
 
+
+
 header .gigaEggLogo{
   width: 5%;
   padding: auto;
@@ -31,7 +33,7 @@ header .gigaEggLogo{
   width: auto;
   padding: auto;
   justify-content: space-around;
-  height: 900px;
+  height: 600px;
 }
 
 p{
@@ -130,7 +132,7 @@ width: 50%;
  .mainImg{
    display: flex;
    justify-content: center;
-   margin-top:100px;
+   margin-top:0px;
 
 
  }
@@ -301,11 +303,12 @@ footer{
 
 
 .fa {
-  padding: 10px;
+  padding: 8px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  width: 50px;
+  width: 45px;
+  margin: 10px;
 
 }
 
@@ -331,8 +334,57 @@ footer{
 
 .socials{
   display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: space-evenly;
-  margin-top: 25px;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+
+@media (max-width: 800px){
+
+.container{
+
+width: 800px;
+}
+
+
+
+
+}
+
+
+@media (max-width: 500px){
+
+.container{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  padding: 3%;
+  margin:auto;
+}
+
+.button{
+  font-size: 20px;
+  width: 50%;
+}
+
+p{
+  font-size: 12px;
+
+}
+
+.gigaEggLogo{
+  opacity: 5%;
+}
+
 }
